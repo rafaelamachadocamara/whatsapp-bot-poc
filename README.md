@@ -8,7 +8,7 @@ Prova de Conceito (POC) para integração com a API oficial do WhatsApp Business
 
 > **Este projeto funciona corretamente em ambiente de testes**, porém existem **limitações impostas pela Meta** que podem gerar confusão durante a validação inicial.
 
-### 🧪 Ambiente de Teste (Sandbox da Meta)
+### 🧪 Ambiente de Teste
 
 Quando você utiliza o **número de teste fornecido pela Meta**, o comportamento é o seguinte:
 
