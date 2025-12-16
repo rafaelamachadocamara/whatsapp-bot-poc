@@ -187,10 +187,4 @@ curl -X POST http://localhost:3000/send-message \
 
 ---
 
-## 📄 Licença
-
-Projeto de **POC educacional**.
-
----
-
-**Importante:** Se a API retorna `200 OK`, seu código está correto. A entrega real depende exclusivamente de um **número WhatsApp Business válido em produção** 🚀
+**Importante:** Se a API retorna `200 OK`, seu código está correto. A entrega real depende exclusivamente de um **número WhatsApp Business válido em produção** 
