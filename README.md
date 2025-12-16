@@ -102,8 +102,8 @@ node index.js
 
 2. Você verá a mensagem:
 ```
-🚀 Servidor rodando na porta 3000
-📡 Webhook URL: http://localhost:3000/webhook
+ Servidor rodando na porta 3000
+ Webhook URL: http://localhost:3000/webhook
 ```
 
 3. Envie uma mensagem para o número do WhatsApp Business configurado
