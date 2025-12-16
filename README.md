@@ -179,41 +179,13 @@ A API do WhatsApp Business tem o seguinte modelo de preços:
 3. Inclui o token de autenticação no header
 4. Mensagem é enviada para o usuário
 
-## 🛠️ Próximos Passos
-
-Após esta POC funcionar, você pode evoluir para:
-
-- [ ] Adicionar banco de dados para histórico de conversas
-- [ ] Implementar autenticação e segurança
-- [ ] Adicionar tipos de mensagens avançadas (botões, listas, imagens)
-- [ ] Criar fluxos de conversa mais complexos
-- [ ] Integrar com IA para respostas inteligentes
-- [ ] Adicionar logs e monitoramento
-- [ ] Deploy em produção (Heroku, AWS, etc.)
-
 ## 📚 Documentação Oficial
 
 - [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp)
 - [Primeiros Passos](https://developers.facebook.com/docs/whatsapp/cloud-api/get-started)
 - [Enviar Mensagens](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages)
 - [Webhooks](https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks/components)
-
-## ❓ Troubleshooting
-
-### Webhook não está sendo verificado
-- Verifique se a URL do ngrok está correta e acessível
-- Confirme que o VERIFY_TOKEN no código é o mesmo configurado no Meta
-- Veja os logs do console para identificar erros
-
-### Não estou recebendo mensagens
-- Verifique se o webhook está configurado e verificado
-- Confirme que o campo "messages" está marcado nas configurações do webhook
-- Verifique os logs do ngrok: `http://localhost:4040`
-
-### Erro ao enviar mensagens
-- Verifique se o WHATSAPP_TOKEN está correto e válido
-- Confirme se o PHONE_NUMBER_ID está correto
-- Certifique-se de que o número de destino está no formato correto (incluindo código do país)
+  
 
 ## 📄 Licença
 
